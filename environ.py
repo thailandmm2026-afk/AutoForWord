@@ -32,7 +32,7 @@ API_ID      = int(os.environ.get("API_ID", 31606811))
 API_HASH    = os.environ.get("API_HASH", "36e6d64e83ee00422c8ba535a60eaa99")
 BOT_TOKEN   = os.environ.get("BOT_TOKEN", "8430496226:AAF3bJUj2PnTCkcExag4zozkUhKuTdBayKI")
 OWNER_ID    = int(os.environ.get("OWNER_ID", 7308292609))
-MONGO_URI   = os.environ.get("MONGO_URI", "mongodb+srv://<db_username>:gxIG6OZJv64HLdIS@cluster0.rtslurp.mongodb.net/?appName=Cluster0")
+MONGO_URI   = os.environ.get("MONGO_URI", "mongodb+srv://thailandmm2026_db_user:thailandmm2026@cluster0.rtslurp.mongodb.net/?appName=Cluster0")
 
 _log_raw    = os.environ.get("LOG_CHANNEL", "").strip()
 if _log_raw and not _log_raw.startswith("@") and not _log_raw.lstrip("-").isdigit():
